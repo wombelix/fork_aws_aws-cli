@@ -22,8 +22,9 @@ div.document {
 }
 
 .body {
-  width: 713px;
+  width: 74%;
   float: right;
+  word-wrap: break-word;
 }
 
 div.related {
@@ -89,6 +90,7 @@ code, pre {
   color: #333333;
   line-height: 23px;
   margin: 20px 0;
+  white-space: pre-wrap;
 }
 
 div.highlight {
