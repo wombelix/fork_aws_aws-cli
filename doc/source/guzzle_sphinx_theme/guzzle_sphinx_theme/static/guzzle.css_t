@@ -140,6 +140,10 @@ a.internal em {
   font-style: normal;
 }
 
+label {
+  width:135px;
+}
+
 /* Sphinx sidebar
 -------------------------------------------------- */
 
