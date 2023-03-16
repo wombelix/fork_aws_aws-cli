@@ -497,8 +497,8 @@ dd div.admonition {
 }
 
 div.admonition p.admonition-title {
-  font-weight: normal;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 15px;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
