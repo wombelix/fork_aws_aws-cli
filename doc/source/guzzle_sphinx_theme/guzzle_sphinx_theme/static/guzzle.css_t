@@ -213,7 +213,7 @@ div.sphinxsidebar ul ul {
 }
 
 div.sphinxsidebar input {
-  border: 1px solid #ccc;
+  border: 1px solid #6C6C6C;
   font-family: Helvetica, arial, freesans, clean, sans-serif;
   font-size: 1em;
 }
