@@ -3,7 +3,7 @@
     <h3>{{ _('Quick search') }}</h3>
     <form class="form-search margin-top-1em" action="{{ pathto('search') }}" method="get">
         <label>Search box
-            <input type="text" name="q" style="width: 105px" class="input-small search-query" />
+            <input type="search" name="q" style="width: 105px" class="input-small search-query" autocomplete="off" />
         </label>
         <button type="submit" class="btn btn-small">Search</button>
         <input type="hidden" name="check_keywords" value="yes" />
