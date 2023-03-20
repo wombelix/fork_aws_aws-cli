@@ -111,6 +111,10 @@ div.highlight {
   font-weight: bold;
 }
 
+#nav-link {
+  color: #000000;
+}
+
 [class^="icon-"],
 [class*=" icon-"] {
   background-image: url("../_static/glyphicons-halflings.png");
