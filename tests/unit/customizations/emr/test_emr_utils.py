@@ -17,7 +17,7 @@ from awscli.customizations.emr.emrutils import which
 class TestEMRutils(object):
 
     def test_which_with_existing_command(self):
-        pythonPath = which('python') or which('python.exe')
+        pythonPath = which('python') or which('python3') or which('python3.11') or which('python.exe')
         assert pythonPath is not None
 
     def test_which_with_non_existing_command(self):
