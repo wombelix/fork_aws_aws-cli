@@ -65,14 +65,16 @@ filter_ssl_warnings()
 logger = logging.getLogger(__name__)
 DEFAULT_TIMEOUT = 60
 MAX_POOL_CONNECTIONS = 10
-DEFAULT_CA_BUNDLE = os.path.join(os.path.dirname(__file__), 'cacert.pem')
 
 try:
     from certifi import where
 except ImportError:
 
     def where():
-        return DEFAULT_CA_BUNDLE
+        return os.path.join(os.path.dirname(__file__), 'cacert.pem')
+
+# Enforce usage of cacert discovered by python certifi by default
+DEFAULT_CA_BUNDLE = where()
 
 
 def get_cert_path(verify):
